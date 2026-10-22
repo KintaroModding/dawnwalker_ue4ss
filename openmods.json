@@ -5,6 +5,7 @@
   "summary": "The official RE-UE4SS script loader, unchanged, with the UE4SS team's config for The Blood of Dawnwalker: one zip to unpack next to the game.",
   "games": ["the-blood-of-dawnwalker"],
   "tags": ["tools", "library"],
+  "cover": "docs/cover.png",
   "requires": [],
   "gameVersions": ["Patch 2"],
   "links": {

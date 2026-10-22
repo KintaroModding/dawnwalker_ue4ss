@@ -16,6 +16,10 @@ Dawnwalker mods need it. This listing republishes one official UE4SS build, so i
 - Nothing else: no file is changed, and no mod is added. The official files of the build are attached to the release
   as well, so you can compare.
 
+## Screenshots
+
+![UE4SS for The Blood of Dawnwalker](docs/cover.png)
+
 ## How to install
 
 1. Close the game.
@@ -59,4 +63,5 @@ access to Epic Games' Unreal source; see the [UE4SS documentation](https://githu
 ## Credits
 
 UE4SS is made by the [UE4SS-RE team and its contributors](https://github.com/UE4SS-RE/RE-UE4SS/graphs/contributors),
-MIT license. This listing and package: Kintaro. MIT license, as UE4SS.
+MIT license. This listing and package: Kintaro. MIT license, as UE4SS. This package is unofficial: the UE4SS team did
+not make it and does not support it.

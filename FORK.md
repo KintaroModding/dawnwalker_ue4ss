@@ -8,7 +8,8 @@ the default branch of a GitHub repository.
 - The branch `release` starts at upstream commit
   [`8333063595fa3c49ad307f3b0f732accbb760d25`](https://github.com/UE4SS-RE/RE-UE4SS/commit/8333063595fa3c49ad307f3b0f732accbb760d25)
   (2026-10-17), the source of the official `experimental-latest` build `UE4SS_v3.0.1-1181-g83330635.zip`.
-- The UE4SS code is unchanged. This fork adds only `FORK.md`, `openmods.json` and `openmods.md`.
+- The UE4SS code is unchanged. This fork adds only `FORK.md`, `openmods.json`, `openmods.md` and the cover image
+  `docs/cover.png`. It is unofficial: the UE4SS team did not make it and does not support it.
 - The release `v3.0.1-1181-g83330635` holds:
   - `UE4SS_v3.0.1-1181-g83330635.zip` and `zCustomGameConfigs.zip`: the official files of that build, unchanged.
   - `dawnwalker_ue4ss_v3.0.1-1181-g83330635.zip`: the official UE4SS zip with the official `TheBloodOfDawnwalker`
@@ -21,3 +22,4 @@ the default branch of a GitHub repository.
 | Date | Version | Change | Files |
 |---|---|---|---|
 | 2026-10-22 | v3.0.1-1181-g83330635 | Fork made; openmods files added; no code change | `FORK.md`, `openmods.json`, `openmods.md` |
+| 2026-10-22 | v3.0.1-1181-g83330635 | Cover image for the openmods page; no code change | `docs/cover.png`, `openmods.json`, `openmods.md` |
