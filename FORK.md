@@ -27,3 +27,4 @@ for each tested game, can be listed on [openmods](https://openmods.nexus), which
 | 2026-10-22 | v3.0.1-1181-g83330635 | Fork made; openmods files added; no code change | `FORK.md`, `openmods.json`, `openmods.md` |
 | 2026-10-22 | v3.0.1-1181-g83330635 | Cover image for the openmods page; no code change | `docs/cover.png`, `openmods.json`, `openmods.md` |
 | 2026-10-23 | v3.0.1-1181-g83330635 | One listing for all tested games: Clair Obscur: Expedition 33 added, repository renamed to `ue4ss`; no code change | `FORK.md`, `openmods.json`, `openmods.md` |
+| 2026-10-23 | v3.0.1-1181-g83330635 | A cover that fits every game page; no code change | `docs/cover.png` |
