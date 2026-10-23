@@ -1,9 +1,10 @@
 # About this fork
 
 This repository is a fork of [RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) by the UE4SS-RE team and its
-contributors (MIT license, see [LICENSE](LICENSE)). It exists so that one official UE4SS build, ready for The Blood of
-Dawnwalker, can be listed on [openmods](https://openmods.nexus), which reads `openmods.json` and `openmods.md` from
-the default branch of a GitHub repository.
+contributors (MIT license, see [LICENSE](LICENSE)). It exists so that one official UE4SS build, with a ready package
+for each tested game, can be listed on [openmods](https://openmods.nexus), which reads `openmods.json` and
+`openmods.md` from the default branch of a GitHub repository. Its first name was `dawnwalker_ue4ss`; since
+2026-10-23 it is `ue4ss`, one listing for all tested games.
 
 - The branch `release` starts at upstream commit
   [`8333063595fa3c49ad307f3b0f732accbb760d25`](https://github.com/UE4SS-RE/RE-UE4SS/commit/8333063595fa3c49ad307f3b0f732accbb760d25)
@@ -14,6 +15,8 @@ the default branch of a GitHub repository.
   - `UE4SS_v3.0.1-1181-g83330635.zip` and `zCustomGameConfigs.zip`: the official files of that build, unchanged.
   - `dawnwalker_ue4ss_v3.0.1-1181-g83330635.zip`: the official UE4SS zip with the official `TheBloodOfDawnwalker`
     config of `zCustomGameConfigs.zip` copied over its `ue4ss\` folder, as the UE4SS team intends for this game.
+  - `expedition33_ue4ss_v3.0.1-1181-g83330635.zip`: the files of the official UE4SS zip, unchanged (the UE4SS team
+    has no config for Clair Obscur: Expedition 33, and the default settings work).
 - Problems with UE4SS itself belong to the [UE4SS issues](https://github.com/UE4SS-RE/RE-UE4SS/issues). For the
   official builds, see the [UE4SS releases](https://github.com/UE4SS-RE/RE-UE4SS/releases).
 
@@ -23,3 +26,4 @@ the default branch of a GitHub repository.
 |---|---|---|---|
 | 2026-10-22 | v3.0.1-1181-g83330635 | Fork made; openmods files added; no code change | `FORK.md`, `openmods.json`, `openmods.md` |
 | 2026-10-22 | v3.0.1-1181-g83330635 | Cover image for the openmods page; no code change | `docs/cover.png`, `openmods.json`, `openmods.md` |
+| 2026-10-23 | v3.0.1-1181-g83330635 | One listing for all tested games: Clair Obscur: Expedition 33 added, repository renamed to `ue4ss`; no code change | `FORK.md`, `openmods.json`, `openmods.md` |
