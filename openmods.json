@@ -3,12 +3,13 @@
   "openmods": 1,
   "name": "UE4SS",
   "summary": "The official RE-UE4SS script loader, unchanged, with one ready zip per tested Unreal game: UE4SS plus that game's config.",
-  "games": ["the-blood-of-dawnwalker", "clair-obscur-expedition-33"],
+  "games": ["the-blood-of-dawnwalker", "clair-obscur-expedition-33", "mortal-shell-ii"],
   "tags": ["tools", "library"],
   "cover": "docs/cover.png",
   "gameVersions": {
     "the-blood-of-dawnwalker": ["Patch 2"],
-    "clair-obscur-expedition-33": ["1.5.6"]
+    "clair-obscur-expedition-33": ["1.5.6"],
+    "mortal-shell-ii": ["1.12.0"]
   },
   "links": {
     "website": "https://github.com/UE4SS-RE/RE-UE4SS",

@@ -17,6 +17,8 @@ for each tested game, can be listed on [openmods](https://openmods.nexus), which
     config of `zCustomGameConfigs.zip` copied over its `ue4ss\` folder, as the UE4SS team intends for this game.
   - `expedition33_ue4ss_v3.0.1-1181-g83330635.zip`: the files of the official UE4SS zip, unchanged (the UE4SS team
     has no config for Clair Obscur: Expedition 33, and the default settings work).
+  - `mortalshell2_ue4ss_v3.0.1-1181-g83330635.zip`: the official UE4SS zip with the official `MortalShell2` config of
+    `zCustomGameConfigs.zip` copied over its `ue4ss\` folder.
 - Problems with UE4SS itself belong to the [UE4SS issues](https://github.com/UE4SS-RE/RE-UE4SS/issues). For the
   official builds, see the [UE4SS releases](https://github.com/UE4SS-RE/RE-UE4SS/releases).
 
@@ -28,3 +30,4 @@ for each tested game, can be listed on [openmods](https://openmods.nexus), which
 | 2026-10-22 | v3.0.1-1181-g83330635 | Cover image for the openmods page; no code change | `docs/cover.png`, `openmods.json`, `openmods.md` |
 | 2026-10-23 | v3.0.1-1181-g83330635 | One listing for all tested games: Clair Obscur: Expedition 33 added, repository renamed to `ue4ss`; no code change | `FORK.md`, `openmods.json`, `openmods.md` |
 | 2026-10-23 | v3.0.1-1181-g83330635 | A cover that fits every game page; no code change | `docs/cover.png` |
+| 2026-10-23 | v3.0.1-1181-g83330635 | Mortal Shell II added; no code change | `FORK.md`, `openmods.json`, `openmods.md` |

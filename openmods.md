@@ -20,6 +20,7 @@ need it. This listing republishes one official UE4SS build, so it can be found o
 |---|---|---|---|
 | The Blood of Dawnwalker | `dawnwalker_ue4ss_v3.0.1-1181-g83330635.zip` | `TheBloodOfDawnwalker` (the UE4SS team's) | Patch 2, 2026-10-22 |
 | Clair Obscur: Expedition 33 | `expedition33_ue4ss_v3.0.1-1181-g83330635.zip` | none: the UE4SS team has none, and the default settings work | 1.5.6 (Steam), 2026-10-23 |
+| Mortal Shell II | `mortalshell2_ue4ss_v3.0.1-1181-g83330635.zip` | `MortalShell2` (the UE4SS team's) | 1.12.0, 2026-10-23 |
 
 ## Screenshots
 
@@ -32,6 +33,7 @@ need it. This listing republishes one official UE4SS build, so it can be found o
 3. Unpack it into the game's `Binaries\Win64\` folder, next to the game's exe:
    - The Blood of Dawnwalker: `Dawnwalker\Binaries\Win64\`, next to `Dawnwalker.exe`.
    - Clair Obscur: Expedition 33: `Sandfall\Binaries\Win64\`, next to `SandFall-Win64-Shipping.exe`.
+   - Mortal Shell II: `MortalShell2\Binaries\Win64\`, next to `MortalShell2-Win64-Shipping.exe`.
 
    You then have `Win64\dwmapi.dll` and the folder `Win64\ue4ss\`.
 4. Start the game. UE4SS writes its log to `Win64\ue4ss\UE4SS.log`.
@@ -46,8 +48,8 @@ If you already use another UE4SS package for the game, use only one of them: del
 UE4SS mods go into `Win64\ue4ss\Mods\<mod name>\`. A mod with an `enabled.txt` file in its folder starts by itself;
 other mods are listed in `Win64\ue4ss\Mods\mods.txt`. The build comes with UE4SS's own helper mods: the game console
 on `~`, `^` or `F10` (ConsoleEnablerMod), the cheat manager (CheatManagerEnablerMod), a loader for Blueprint mods in
-the game's `Content\Paks\LogicMods\` folder (BPModLoaderMod; `Dawnwalker\Content\Paks\LogicMods\` or
-`Sandfall\Content\Paks\LogicMods\`), and keys for dumps (Keybinds).
+the game's `Content\Paks\LogicMods\` folder (BPModLoaderMod; `Dawnwalker\Content\Paks\LogicMods\`,
+`Sandfall\Content\Paks\LogicMods\` or `MortalShell2\Content\Paks\LogicMods\`), and keys for dumps (Keybinds).
 
 ## Compatibility
 
@@ -55,6 +57,8 @@ the game's `Content\Paks\LogicMods\` folder (BPModLoaderMod; `Dawnwalker\Content
   2026-10-22: main menu, save loads, the helper mods, and a Lua mod.
 - Clair Obscur: Expedition 33: 1.5.6 (`1.5.6.0`, Steam; Unreal Engine 5.4.4). Tested on 2026-10-23: game start, save
   load, the helper mods, and UE4SS's header and mapping dumps.
+- Mortal Shell II: 1.12.0 (Unreal Engine 5.6). Tested on 2026-10-23: game start, save load, the helper mods, and
+  UE4SS's header dump.
 - Other games are not tested here. For them, use the official `UE4SS_v3.0.1-1181-g83330635.zip` with your game's
   config from `zCustomGameConfigs.zip`, if the UE4SS team has one.
 - A game update can need a new UE4SS build or config. Then check the
@@ -65,6 +69,9 @@ the game's `Content\Paks\LogicMods\` folder (BPModLoaderMod; `Dawnwalker\Content
 - The UE4SS log shows optional engine functions that were not found: `FUObjectHashTables::Get` and
   `ConsoleManagerSingleton` in The Blood of Dawnwalker, `ConsoleManagerSingleton` in Clair Obscur: Expedition 33.
   UE4SS works without them; no problem was seen.
+- Mortal Shell II: the mapping dump (Ctrl+Num6 of the Keybinds helper) fails inside UE4SS. UE4SS catches the error
+  and the game keeps running, but no mapping file is made. The log also says that UE4SS's quick object lookup failed
+  its self test; UE4SS then uses its slower lookup, which works.
 - This is an experimental build of UE4SS. Report problems with UE4SS itself to the
   [UE4SS issues](https://github.com/UE4SS-RE/RE-UE4SS/issues), and problems with this package here.
 
